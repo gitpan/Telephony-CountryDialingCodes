@@ -5,7 +5,7 @@ WriteMakefile(
     'NAME'	=> 'Telephony::CountryDialingCodes',
     'VERSION_FROM' => 'lib/Telephony/CountryDialingCodes.pm',
     'AUTHOR' => 'Craig Manley',
-    'ABSTRACT' => 'International dialing code to country code conversion class.',
+    'ABSTRACT' => 'Convert international dialing codes to country codes and vice versa.',
     'PREREQ_PM'	=> {},
     'dist' => {COMPRESS => 'gzip -9f', SUFFIX => 'gz'}
 );

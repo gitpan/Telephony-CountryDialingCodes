@@ -1,5 +1,5 @@
-Telephony::CountryAccessCodes
-=============================
+Telephony::CountryDialingCodes
+==============================
 
 Description
 -----------
@@ -27,7 +27,7 @@ Installation
 perl Makefile.PL
 make
 make install
-perldoc Telephony::CountryAccessCodes
+perldoc Telephony::CountryDialingCodes
 
 Author
 ------

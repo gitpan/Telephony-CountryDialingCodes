@@ -5,19 +5,19 @@ package Telephony::CountryDialingCodes;
 # This library is free software; you can redistribute it and/or modify
 # it under the same terms as Perl itself.
 #
-# $Id: CountryDialingCodes.pm,v 1.1.1.2 2004/11/18 20:44:31 cmanley Exp $
+# $Id: CountryDialingCodes.pm,v 1.2 2004/11/22 11:24:49 cmanley Exp $
 #
 use strict;
 use Carp;
 
-our $VERSION = sprintf "%d.%02d", q$Revision: 1.1.1.2 $ =~ m/ (\d+) \. (\d+) /xg;
+our $VERSION = sprintf "%d.%02d", q$Revision: 1.2 $ =~ m/ (\d+) \. (\d+) /xg;
 
 my $dialing_iso3166;
 my $iso3166_dialing;
 
 =head1 NAME
 
-Telephony::CountryDialingCodes - international dialing code to country code conversion class.
+Telephony::CountryDialingCodes - convert international dialing codes to country codes and vice versa.
 
 =head1 SYNOPSIS
 

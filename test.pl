@@ -11,6 +11,7 @@ BEGIN {
 print_test('Require module');
 eval {require Telephony::CountryDialingCodes;};
 ok($@ ? 0 : 1);
+print 'This version: ' . $Telephony::CountryDialingCodes::VERSION . "\n";
 
 
 # Test 2
