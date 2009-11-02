@@ -1,9 +1,9 @@
 package Telephony::CountryDialingCodes;
-# $Id: CountryDialingCodes.pm,v 1.3 2007/02/23 23:46:58 cmanley Exp $
+# $Id: CountryDialingCodes.pm,v 1.4 2009/11/02 19:46:32 cmanley Exp $
 # See POD documentation below.
 use strict;
 use Carp;
-our $VERSION = sprintf('%d.%02d', q|$Revision: 1.3 $| =~ m/ (\d+) \. (\d+) /xg);
+our $VERSION = sprintf('%d.%02d', q|$Revision: 1.4 $| =~ m/ (\d+) \. (\d+) /xg);
 
 
 # Private global 'constants'.
@@ -96,7 +96,7 @@ our %DIALING_ISO3166 = (
 	378	=> 'SM',
 	379	=> 'VA',
 	380	=> 'UA',
-	381	=> [qw(RS ME)],
+	381	=> 'RS',
 	382	=> 'ME',
 	385	=> 'HR',
 	386	=> 'SI',
@@ -374,7 +374,7 @@ L<Number::Phone::Country|Number::Phone::Country> for looking up country codes fr
 
 =head1 COPYRIGHT
 
-Copyright (C) 2004-2007 Craig Manley. All rights reserved.
+Copyright (C) 2004-2009 Craig Manley. All rights reserved.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. There is NO warranty; not even for
